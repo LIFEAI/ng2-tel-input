@@ -7,12 +7,7 @@
         "experimentalDecorators": true,
         "sourceMap": true,
         "declaration": true,
-        "strictNullChecks": true,
-        "stripInternal": true,
-        "moduleResolution": "node",
-        "removeComments": true,
-        "inlineSources": true,
-        "skipLibCheck": true
+        "inlineSources": true
     },
     "files": [
         "ng2-intl-tel-input.ts"
