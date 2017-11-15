@@ -12,7 +12,6 @@
         "moduleResolution": "node",
         "removeComments": true,
         "inlineSources": true,
-        "outDir": "dist",
         "skipLibCheck": true
     },
     "files": [
@@ -20,8 +19,5 @@
     ],
     "exclude": [
         "node_modules"
-    ],
-    "angularCompilerOptions": {
-        "strictMetadataEmit": true
-    }
+    ]
 }
