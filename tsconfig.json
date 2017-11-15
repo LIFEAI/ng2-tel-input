@@ -6,12 +6,22 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true
+        "declaration": true,
+        "strictNullChecks": true,
+        "stripInternal": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "inlineSources": true,
+        "outDir": "dist",
+        "skipLibCheck": true
     },
     "files": [
         "ng2-intl-tel-input.ts"
     ],
     "exclude": [
         "node_modules"
-    ]
+    ],
+    "angularCompilerOptions": {
+        "strictMetadataEmit": true
+    }
 }
